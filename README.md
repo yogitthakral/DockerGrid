@@ -5,7 +5,7 @@ An isolated , On demand and scalable Selenium Grid Architecture.
 A Selenium Grid Architecture that comes into existence as soon as the test execution starts , each Test Suite creates its own "Selenium Grid" and run in isolation with another Test Suite. As soon as your execution completes , You will have your results and the Selenium Grid will dispose off itself as it never existed.
 
 # Why do we need another Selenium Grid or Execution Environment for each Test Suite, why can't we do it by simply increase the nodes ?
-Well, You can ... But think of the situation where you want to execute the same code over two different environments having the same dns with different Ips e.g , your internal staging server, OR a situation where you want to execute the different codebase/git branch of your repo in parallel and your master branch is executing ...?? To solve this , you need to run your code in isolated environment where whatever you , whatever host entries you set , will not effect the whole execution process.
+Well, You can ... But think of the situation where you want to execute the same code over two different environments having the same dns with different Ips e.g , your internal staging server, OR a situation where you want to execute the different codebase/git branch of your repo in parallel and your master branch is executing ...?? To solve this , you need to run your code in isolated environment where  whatever host entries you set , will not effect the whole execution process.
 
 # How's it scalable ?
 You will have the control to define the number of nodes that you want to attach to the grid before triggering your Test Suite for execution.

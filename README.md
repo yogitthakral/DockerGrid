@@ -22,15 +22,16 @@ Not much ingredients , All you Need is :-
 
 # Thats OK, how to join these NUTS and BOLTS ?
 So the Sequence of Actions would be :-
-1) Setting up docker on Linux VM/Linux Server : Check out Docker's Guide of installing it on Linux.
+1) Installing linux on VM/Server (CentOS Linux release 7.2.1511 (Core) recommended).
+2) Setting up docker on Linux VM/Linux Server : Check out Docker's Guide of installing it on Linux.
 https://docs.docker.com/install/#releases
 (Docker version 1.12.6, build 1398f24/1.12.6) recommended.
 
-2) Setting up Jenkins(On the same server OR somehwere else you want) : Checkout Jenkins Guide of instllation .
+3) Setting up Jenkins(On the same server OR somehwere else you want) : Checkout Jenkins Guide of instllation .
 https://jenkins.io/doc/book/installing/
 
-3) Connecting Jenkins to the Linux VM (Checkout our Guide Link Below to see how to do that?)
-4) Take a git clone of this Repo on Linux VM/Linux Server.
-5) Follow the below guide to make it work :)
-6) Read the README.md inside respective folder for better clarity to play with those.
+4) Connecting Jenkins to the Linux VM (Checkout our Guide Link Below to see how to do that?)
+5) Take a git clone of this Repo on Linux VM/Linux Server.
+6) Follow the below guide to make it work :)
+7) Read the README.md inside respective folder for better clarity to play with those.
 

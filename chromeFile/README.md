@@ -6,7 +6,7 @@ selenium-hub:
   image: yogitthakral/ngseleniumhub:3.5.3(Change Image name here for a different version of selenium hub and selenium )
   environment:
     GRID_BROWSER_TIMEOUT: 300000
-#    JVM_OPTS: '-Xmx512m'
+\#    JVM_OPTS: '-Xmx512m'
   volumes:
       - /dev/shm:/dev/shm
       - /home/jenkins(replace with the linux Vm connected User with jenkins here)/.m2:/home/seluser/.m2
@@ -23,6 +23,6 @@ node:
     NODE_MAX_SESSION: 3
   links:
   - selenium-hub:hub
-  #extra_hosts:(add any host entry if required in the below lines as defined in the below example)
-  #- "www.abc.com:10.10.10.1"
+  \#extra_hosts:(add any host entry if required in the below lines as defined in the below example)
+ \#- "www.abc.com:10.10.10.1"
 

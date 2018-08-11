@@ -1,6 +1,6 @@
 #replace jenkins with the username configured to connect with jenkins on the linux VM.
 
-#take parameters from jenkins,6th argument is framework specific , if not configured in framework , can be deleted from here and if condition. 8th and 9th argument are testlink specific and can be deleted here and from if condition if not using testlink.
+#take parameters from jenkins,8th and 9th argument are testlink specific and can be deleted here and from if condition if not using testlink.
 NumberOfNodes=$1
 DockerPrefix=$2
 ymlName=$3

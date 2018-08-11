@@ -24,6 +24,7 @@ Not much ingredients , All you Need is :-
 So the Sequence of Actions would be :-
 1) Setting up docker on Linux VM/Linux Server : Check out Docker's Guide of installing it on Linux.
 https://docs.docker.com/install/#releases
+(Docker version 1.12.6, build 1398f24/1.12.6) recommended.
 
 2) Setting up Jenkins(On the same server OR somehwere else you want) : Checkout Jenkins Guide of instllation .
 https://jenkins.io/doc/book/installing/

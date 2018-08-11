@@ -1,0 +1,23 @@
+selenium-hub:
+  image: yogitthakral/ngseleniumhub:3.5.3
+  environment:
+    GRID_BROWSER_TIMEOUT: 300000
+#    JVM_OPTS: '-Xmx512m'
+  volumes:
+      - /dev/shm:/dev/shm
+      - /home/jenkins/.m2:/home/seluser/.m2
+  ports:
+  - "4444"
+
+node:
+  image: yogitthakral/ngfirefoxnode:60.0.2.3.5.3
+  volumes:
+      - /dev/shm:/dev/shm
+  environment:
+    HUB_PORT_4444_TCP_ADDR: 'hub'
+    NODE_MAX_INSTANCES: 3
+    NODE_MAX_SESSION: 3
+  links:
+  - selenium-hub:hub
+  #extra_hosts:
+  #- "www.abc.com:10.10.10.1"

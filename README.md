@@ -11,6 +11,9 @@ You will have the control to define the number of nodes that you want to attach 
 # How's it on demand ?
 You will utilize hardware resources only when needed for test execution. System resources will be freed once execution is completed and can be utlized to combine more number of nodes required for a different test suite execution.
 
+# what do you mean by isolated?
+When a test suite is getting executed , you can start executing another test suite in completely fresh environment in parallel. This means that , each Test Suite will run in its own environment in parallel with other Test Suites.
+
 # Sounds convincing , How its built ?
 Its a dockerized test execution environment. Its built by combining and editing the official docker repositories of ubuntu and selenium, Applying some hacks on jenkins configuration side and creating bash scripts to take care of everything.
 

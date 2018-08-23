@@ -37,5 +37,6 @@ https://jenkins.io/doc/book/installing/
 4) Connecting Jenkins to the Linux VM (Checkout our Guide Link Below to see how to do that?)
 5) Take a git clone of this Repo on Linux VM/Linux Server.
 6) Follow the below guide to make it work :)
+https://medium.com/@kandeelchauhan/docker-selenium-grid-5551dc9fed36
 7) Read the README.md inside respective folder for better clarity to play with those.
 
